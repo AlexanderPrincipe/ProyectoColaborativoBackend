@@ -39,7 +39,7 @@ public class Usuario {
 	private String bio;
 
 	@ManyToOne
-	@JoinColumn(name = "idpais")
+	@JoinColumn(name = "id_pais")
 	Pais id_pais;
 
 	@OneToMany
